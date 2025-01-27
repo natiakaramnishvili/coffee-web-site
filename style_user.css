@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+main{
+    height: 100%;
+}
+section.first2{
+    display: flex;
+    justify-content: center;
+}
+section.first2 aside.background2{
+    background-image: url(./Bitmap\ \(1\).png); 
+    width: 1280px;
+    height: 600px;
+   color: white;
+   background-repeat: no-repeat;
+   }
+aside.background2 article.onTheBack h2{
+    font-size: 42px;
+    margin-top: 100px ;
+}
+aside.background2 article.onTheBack{
+    padding-left: 100px;
+}
+/* section next2*/
+section.next2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Fraunces", serif;
+}
+section.next2 div.formHeader{
+    background-color:#0E8784;
+    width: 40%;
+    border-radius: 5px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+section.next2 form{
+color: #333D4B;
+height: 400px;
+display: flex;
+flex-direction: column;
+width: 40%;
+margin-top: 20px;
+}
+form input{
+    height: 23px;
+    border: 2px solid #7d8ea637;
+    background-color: #7d8ea637;
+    margin-bottom: 20px;
+}
+form div.name_surname{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+form div.name_surname div{
+    display: flex;
+    flex-direction: column;
+}
+div.name_surname input{
+    width: 220px;
+}
+form div.buttons{
+   display: flex;
+   justify-content: end;
+   align-items: center;
+}
+div.buttons button{
+width: 80px;
+height: 28px;
+margin-left: 10px;
+}
+div.buttons button.submit{
+    width: 95px;
+    height: 33px;
+    background-color: #FDD6BA;
+    border: 1px solid #FDD6BA;
+}

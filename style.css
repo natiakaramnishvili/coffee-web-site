@@ -1,0 +1,253 @@
+body{
+    margin: 0;
+    padding-top: 0;
+}
+
+.frequent_class{
+    display: flex;
+    justify-content: center;
+}
+header, footer{
+height: 105px;
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+h1{
+    margin: 0;
+}
+aside.headerPart{
+    display: flex;
+}
+nav.header1nav{
+    width: 300px;
+    display: flex;
+    justify-content:space-around ;
+}
+nav.header1nav a{
+text-decoration: none;
+color:#83888F ;
+}
+
+
+
+/*main*/
+main{
+   width: 100%;
+   height: 100vh;
+}
+main section.section_one{
+display: flex;
+justify-content: center;
+}
+section.section_one aside.background{
+ background-image: url(./coffe\ photo.png); 
+ width: 1280px;
+ height: 600px;
+ background-position: 26% 71%;
+ font-family: "Fraunces", serif;
+color: white;
+padding-left: 165PX;
+}
+aside article.onTheBack{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+aside.background h2{
+font-size: 72px;
+display: inline;
+margin-top: 100px ;
+}
+article.onTheBack p.article_p{
+width: 445px;
+line-height: 30px;
+font-weight: 100;
+}
+article.onTheBack a, section.fourth a{
+    width: 217px;
+    height: 56px;
+    background-color:#0E8784 ;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+/*section two ყავის პროდუქცია*/
+
+section.section_two, section.section_three, section.next2{
+  padding: 0 150px;
+}
+p.opacity_text{
+  font-size: 150px;
+  font-weight: 900;
+  font-family: "Fraunces", serif;
+  position: relative;
+  color: rgb(157, 156, 156);
+  margin-top: 80px;
+  margin-bottom: -80px;
+  margin-left: 80px;
+  z-index: -2;
+  letter-spacing: 8px;
+  text-align: center;
+}
+section.section_two p.opacity_text img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 1200px;
+}
+ article.products,article.products div {
+display: flex;
+font-family:  "Fraunces", serif;
+}
+article.products div {
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+article.products img{
+    width: 255px;
+    height: 193px;
+}
+article.products div p{
+    font-weight: 900;
+    font-size: 22px;
+    
+}
+article.products div article{
+    font-weight: 300;
+}
+
+/*section three ნაცრისფერი მართკუთხედი */
+section.section_three{
+    margin-top: 150px;
+}
+aside.grey_background{
+    background-color: #333D4B;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    border-radius: 10px;
+}
+aside.grey_background h4{
+font-family:"Fraunces 9pt", serif ;
+font-size:40px;
+font-weight:900;
+margin-bottom: 30px;
+padding-top: 50px;
+text-align: center;
+}
+aside.grey_background p{
+    font-family:"Fraunces", serif ;
+    font-size:16px;
+    font-weight:100; 
+    text-align: center;  
+    width: 50%;
+}
+div.three_green{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+div.three_green div{
+background-color:#0E8784 ;
+width: 350px;
+height: 320px;
+margin: 0px 25px ;
+margin-top: -200px;
+border-radius: 10px;
+padding-top: 60px;
+display: flex;
+flex-direction: column;
+align-items: center;
+color: white;
+font-family:"Fraunces", serif ;
+}
+div.three_green div p{
+    margin-top: 40px;
+    font-size: 24px;
+}
+div.three_green div article{
+    font-weight: 200;
+    text-align: center;
+}
+/* last section fourth*/
+
+section.fourth{
+font-family: "Fraunces", serif;
+padding: 0 150px;
+margin-top: 180px;
+}
+
+section.fourth h5, section.fourth2 h5 {
+    font-size: 24px;
+    color: #83888F;
+    font-weight: 900;
+    
+}
+
+section.fourth div.shapes{
+    display: flex;
+    align-items: center;
+    margin:70px 0;
+}
+div.shapes div.round{
+    width: 31px;
+    height: 31px;
+    border: 2px solid #0E8784;
+    border-radius: 50%;
+}
+div.shapes div.line{
+background-color: #FDD6BA;
+height: 2px;
+width: 380px;
+}
+
+div.three_asides{
+    display: flex;
+    margin-bottom: 60px;
+}
+aside.number_text{
+margin-right: 40px;
+}
+aside.number_text div.number{
+    color:#FDD6BA ;
+    font-size: 65px;
+    font-weight: 900;
+
+}
+aside.number_text p{
+color: #333D4B;
+font-weight: 900;
+font-size: 28px;
+}
+aside.number_text article.text{
+    font-weight: 300;
+    line-height: 30px;
+}
+.div{
+    height: 130px;
+    width: 100%;
+    background-color: grey;
+}
+
+footer{
+    margin-top: 100px;
+    background-color: #2C343E;
+    padding: 0 150px;
+}
+footer h1{
+    color: white;
+}
+
+
+
+

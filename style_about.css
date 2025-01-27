@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+section.first2{
+    display: flex;
+    justify-content: center;
+}
+section.first2 aside.background2{
+    background-image: url(./coffe\ on\ aboutus.jpg); 
+    width: 1280px;
+    height: 600px;
+    font-family: "Fraunces", serif;
+   color: white;
+   background-repeat: no-repeat;
+   }
+aside.background2 article.onTheBack h2{
+    font-size: 42px;
+    margin-top: 100px ;
+}
+aside.background2 article.onTheBack{
+    padding-left: 100px;
+}
+
+
+/*section2 second*/
+main{
+    height: 100%;
+}
+section.second2{
+    display: flex;
+    padding: 0 150px;
+    font-family: "Fraunces", serif;
+}
+section.second2 h3{
+font-size: 42px;
+font-weight: 900;
+}
+aside.article_ofAboutus article.commitment{
+    font-weight: 200;
+    line-height: 23px;
+}
+section.second2 aside.image_ofAboutus{
+    width: 485px;
+    height: 606px; 
+    margin-right: 80px;
+    border-radius: 10px;   
+    background-image: url(./aboutus_second.png);
+}
+aside.article_ofAboutus{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+/*section2 third*/
+section.third2{
+    padding: 0 150px;
+    margin-top: 150px;
+}
+aside.grey_background{
+    background-color: #333D4B;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    padding-left: 50px;
+    height: 500px;
+    border-radius: 10px;
+    position: relative;
+}
+aside.grey_background h4{
+font-family:"Fraunces 9pt", serif ;
+font-size:40px;
+font-weight:900;
+margin-bottom: 30px;
+padding-top: 50px;
+}
+aside.grey_background p{
+    font-family:"Fraunces", serif ;
+    font-size:16px;
+    font-weight:100; 
+    text-align: start;  
+    width: 50%;
+}
+aside.grey_background img{
+    position: absolute;
+   right: 80px;
+   bottom: 80px;
+}
+
+/* section fourth2*/
+    
+section.fourth2{
+    padding: 0 150px;
+    margin-top: 150px;
+}
+div.countries{
+    display: flex;
+    justify-content: space-around;
+
+}
+div.countries div h6{
+    font-family: "Fraunces", serif;
+    font-size: 28px;
+    font-weight: 900;
+    color: #333D4B;
+}
+div.countries div{
+    font-family: "Fraunces", serif;  
+    font-size: 17px;
+    font-weight: 300;
+}
